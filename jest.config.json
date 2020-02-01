@@ -1,0 +1,14 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "setupFiles": [
+    "./__tests__/utils/jest.setup.ts"
+  ],
+  "testPathIgnorePatterns": [
+    "./__tests__/utils"
+  ],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**"
+  ]
+}

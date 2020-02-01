@@ -1,0 +1,46 @@
+{
+  "name": "firefall-js",
+  "version": "1.0.0",
+  "description": "Objectify inspired Google Firestore interface wrapper for Javascript",
+  "main": "./lib/index.js",
+  "repository": "https://UrbanChrisy@github.com/dlcgl/firefall-js.git",
+  "author": {
+    "name": "Christian Mitchell",
+    "email": "chris@delacour.co.nz",
+    "url": "https://delacour.co.nz"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "sh -ac '. ./.env; jest';"
+  },
+  "peerDependencies": {
+    "firebase": ">=7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/firebase": "^3.2.1",
+    "@types/jest": "^24.0.25",
+    "@types/lodash": "^4.14.149",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^6.3.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.4.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "firebase": "^7.6.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
